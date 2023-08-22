@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG, format="%(asctime)s %(message)s")
 def main():
     # read in the iris csv file
     logging.info("Reading 'iris.csv' ...")
-    df = pd.read_csv("./iris.csv")
+    df = pd.read_csv("iris.csv")
     logging.info(f"{df.shape[0]} rows, {df.shape[1]} columns.")
     logging.info(df.describe())
 
