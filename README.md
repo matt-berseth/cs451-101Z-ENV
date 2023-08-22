@@ -2,7 +2,7 @@
 Follow the instructions to ensure you have the computing environment configured properly.
 
 ## Windows 10/11 Steps
-1. Clone the repo: https://github.com/matt-berseth/cs451-101Z-ENV.git using GitHub Desktop
+1. Clone the repo: https://github.com/matt-berseth/cs451-101Z-ENV.git using GitHub Desktop (as shown in Environment Set Up - Windows.docx)
 1. Open powershell terminal with the current directory the cs451-101Z-ENV folder
 1. From a powershell command line, run the following commands
 ```powershell
@@ -20,6 +20,9 @@ python -m pip install --upgrade pip
 
 # install requirements
 pip install -r requirements.txt
+
+# launch vscode
+code .
 ```
 
 ## Ubuntu 22.04.2 Steps
