@@ -51,9 +51,9 @@ code .
 ![Upgrade wsl.exe](Screenshot5.png "Upgrade wsl.exe")
 
 1. Install Ubuntu 22.04.02 LTS from the Store
-![Install Ubuntu 22.04.02 LTS from the Store](Screenshot6.png "Install Ubuntu 22.04.02 LTS from the Store").
+![Install Ubuntu 22.04.02](Screenshot6.png "Install Ubuntu 22.04.02")
 
-2. The first time you launch ubuntu you will need to configure a username and password. **You will need to remember this username and password**
+1. The first time you launch ubuntu you will need to configure a username and password. **You will need to remember this username and password**
 
 
 1. From the wsl terminal, run the following commands
