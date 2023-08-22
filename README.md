@@ -36,7 +36,7 @@ python -m pip install --upgrade pip
 # install requirements
 pip install -r requirements.txt
 
-# launch vscode
+# launch vscode, set a breakpoint and debug
 code .
 ```
 
@@ -53,7 +53,7 @@ code .
 1. Install Ubuntu 22.04.02 LTS from the Store
 ![Install Ubuntu 22.04.02 LTS from the Store](Screenshot6.png "Install Ubuntu 22.04.02 LTS from the Store").
 
-1. The first time you launch ubuntu you will need to configure a username and password. **You will need to remember this username and password**
+2. The first time you launch ubuntu you will need to configure a username and password. **You will need to remember this username and password**
 
 
 1. From the wsl terminal, run the following commands
@@ -83,9 +83,6 @@ source ./.venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-# launch vscode
+# launch vscode, set a breakpoint and debug
 code .
 ```
-
-1. Install the following vscode packages (Python, Pylance)
-1. Launch the 'main' entry.
