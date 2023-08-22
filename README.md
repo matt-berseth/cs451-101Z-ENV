@@ -1,6 +1,14 @@
 # cs451-101Z-ENV
 Follow the instructions to ensure you have the computing environment configured properly.
 
+## Notes
+1. If you are using Windows, please install GitHub Desktop (https://desktop.github.com/)
+
+1. After you configure your environment, you can launch vscode and install two extensions (Python, Pylance)
+
+1. Once everything is set up, you can set a breakpoint in main.py and debug the script.
+
+
 ## Windows 10/11 Steps
 1. Download the Python3.10.11 windows installer here: https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 
@@ -42,13 +50,13 @@ code .
 1. Upgrade wsl by opening a windows command prompt and entering `wsl.exe --upgrade`
 ![Upgrade wsl.exe](Screenshot5.png "Upgrade wsl.exe")
 
-1. Upgrade wsl by opening a windows command prompt and entering `wsl.exe --upgrade`
+1. Install Ubuntu 22.04.02 LTS from the Store
 ![Install Ubuntu 22.04.02 LTS from the Store](Screenshot6.png "Install Ubuntu 22.04.02 LTS from the Store").
 
 1. The first time you launch ubuntu you will need to configure a username and password. **You will need to remember this username and password**
 
 
-3. From the wsl terminal, run the following commands
+1. From the wsl terminal, run the following commands
 ```bash
 # launch a WSL window
 sudo apt update
